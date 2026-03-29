@@ -1,13 +1,10 @@
-# AI Project Template
+# Claude Code Experiments
 
-Reusable template for building AI/Agentic AI projects using Python.
+Hands-on experiments with Claude Code for developer productivity, coding workflows, setup patterns, and practical engineering use cases.
 
-## Features
-- Clean project structure
-- CLI-based execution
-- Environment variable support
-- Docker support
-- GitHub Actions CI
-- Ready for LangChain, LangGraph, MCP, Claude Code
-
-## Project Structure
+## What this repo includes
+- Setup notes
+- IDE and terminal workflows
+- Prompt patterns for coding
+- Refactoring and debugging experiments
+- Lessons learned from real hands-on usage
