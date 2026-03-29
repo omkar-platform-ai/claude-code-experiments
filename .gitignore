@@ -2,3 +2,55 @@
 .env
 .env.example
 .venv/
+
+## uigen project start
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# dependencies
+/examples/uigen/node_modules
+/examples/uigen/.pnp
+/examples/uigen/.pnp.*
+/examples/uigen/.yarn/*
+/examples/uigen/.yarn/patches
+/examples/uigen/.yarn/plugins
+/examples/uigen/.yarn/releases
+/examples/uigen/.yarn/versions
+
+# testing
+/examples/uigen/coverage
+
+# next.js
+/examples/uigen/.next/
+
+# production
+/examples/uigen/build
+
+# misc
+/examples/uigen/.DS_Store
+/examples/uigen/*.pem
+
+# debug
+/examples/uigen/npm-debug.log*
+/examples/uigen/yarn-debug.log*
+/examples/uigen/yarn-error.log*
+/examples/uigen/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+/examples/uigen/.env
+/examples/uigen/.env.local  
+/examples/uigen/.env.development
+/examples/uigen/.env.production
+
+# vercel
+/examples/uigen/.vercel
+
+# typescript
+/examples/uigen/*.tsbuildinfo
+/examples/uigen/next-env.d.ts   
+
+# generated files
+/examples/uigen/src/generated/prisma
+
+# database
+/examples/uigen/prisma/dev.db
+/examples/uigen/prisma/dev.db-journal
+## uigen project end
